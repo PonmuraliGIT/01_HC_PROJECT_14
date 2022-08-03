@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  font-family: sans-serif;
+  background-color: #F5F2F0;
+}
+body{
+  font-size: 62.5%;
+}
+.hero-section {
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+}
+.logo {
+  position:absolute;
+  top:8%;
+  left:5%;
+  width:108px;
+}
+.hero-section-2{
+  margin:32px 0;
+  padding:0 24px;
+
+}
+.hero-section-2 nav{
+  display:flex;
+  column-gap: 24px;
+  align-items: center;
+  justify-content: flex-end;
+  font-size:1rem;
+  position:relative;
+}
+.ruler {
+  position:absolute;
+  left:5%;
+  top:-45%;
+}
+.heading{
+  position:relative;
+  flex-basis:50%;
+}
+.heading h1{
+  font-family: "Crimson Text";
+  color:white;
+  text-shadow: 0 0 2px #110f0f, 0 0 2px #15151a;
+  letter-spacing: 0.4rem;
+  font-size:7rem;
+}
+.heading strong {
+  font-family: "Crimson Text";
+  font-size:7rem;
+  font-weight:bold;
+  /* position:absolute;
+  top:58%;
+  left:44%; */
+  margin-left:6rem;
+  color:#15151a
+}
+.heading-section{
+  display:grid;
+  grid-template-columns: 1fr 1fr ;  
+}
+.heading-1{
+  display:grid;
+  grid-template-columns: 10fr 1fr;
+}
+.heading-1 h2{
+  align-self: flex-end;
+  font-size:2rem;
+  font-family:'serif';
+  font-weight:normal;
+  color:rgb(114, 114, 115)
+}
+.heading-icons{
+  display:flex;
+  flex-direction: column;
+  row-gap:16px;
+  justify-content: flex-end;
+  
+}
+.heading-icons img{
+  width:24px;
+}
+.btn-black {
+  background-color:#2f2626; 
+  color:white;
+  padding:12px 72px;
+  cursor:pointer; 
+}
+.checkDiv {
+  margin-top:24px;
+  text-align: right;
+}
+.bottom-section {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position:relative;
+}
+.bottom-section ul{
+  list-style-type: disc;
+  font-size:1rem;
+}
+.bottom-section ul li {
+  margin-bottom:16px;
+  font-size:1.5rem;
+}
+.arrow-div{
+  align-self: flex-end;
+  margin-left:80%;
+}
+.image-div {
+  align-self: flex-end;
+}
+.quote-img{
+  width:20%;
+}
+.hero-img-1{
+  width:120%;
+}
+.image-div p{
+  font-size:1rem;
+  margin:22px 0;
+  width:100%;
+}
+.vl{
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 15rem;
+  position:absolute;
+  top:4%;
+  left:1.5rem;
+}
+.quote-txt {
+  font-family: 'Crimson Text';
+  font-size:2rem;
+}
